@@ -1,4 +1,4 @@
-# django-workshop-2021
+# Django Workshop 2021
 Example Django project for IBY Hacks+ 2021 Django workshop.
 
 This project requires Python 3.
@@ -20,10 +20,10 @@ Open virtual environment
 .venv/Scripts/Activate.ps1
 ```
 
-[Use this repo](#Use-this-repository)
-[Start your own project](#Start-your-own-project)
+[Use this repo](##Use-this-repository)
+[Start your own project](##Start-your-own-project)
 
-# Use this repository
+## Use this repository
 
 Install required packages
 ```bash
@@ -42,7 +42,7 @@ python manage.py runserver
 
 The site should be locally available at 127.0.0.1:8000
 
-# Start your own project
+## Start your own project
 
 Install Django
 ```bash
