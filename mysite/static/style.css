@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+body * {
+    font-family: Calibri;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: orange;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header * {
+    margin: 0px 20px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.link-bar {
+    display: flex;
+}
+
+.link {
+    font-size: 20px;
+}
+
+.content {
+    width: 50%;
+    margin: 20px auto;
+}
