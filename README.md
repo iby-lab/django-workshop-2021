@@ -20,8 +20,8 @@ Open virtual environment
 .venv/Scripts/Activate.ps1
 ```
 
-[Use this repo](##Use-this-repository)
-[Start your own project](##Start-your-own-project)
+[Use this repo](#Use-this-repository)
+[Start your own project](#Start-your-own-project)
 
 ## Use this repository
 
