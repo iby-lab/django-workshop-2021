@@ -65,6 +65,36 @@ To create your own project, use the command:
 django-admin startproject your_project_name
 ```
 
+To set up static files, add the following to the bottom of settings.py
+```python
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/3.2/howto/static-files/
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR.joinpath('static')
+]
+```
+
+To set up templates, add the following to the TEMPLATES variable in settings.py
+```python
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR.joinpath("templates")], # right here
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
 # Templates
 
 Templates are the way Django reduces redundancy in front-end code. Once a template is made, it can be used anywhere in the project.
