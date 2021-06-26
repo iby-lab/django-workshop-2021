@@ -46,6 +46,17 @@ Enter the project directory
 cd mysite
 ```
 
+Create and update the database
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+Create a superuser/admin and use whatever information you please
+```bash
+python manage.py createsuperuser
+```
+
 Run the Django project
 ```bash
 python manage.py runserver
