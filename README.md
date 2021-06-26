@@ -6,7 +6,11 @@ This project requires Python 3.
 # Table of Contents
 
 * [Setup](#Setup)
+  * [Use this repo](#Use-this-repository)
+  * [Start your own project](#Start-your-own-project)
 * [Essential Commands Cheat Sheet](#Essential-Commands-Cheat-Sheet)
+  * [Creating a django application](#Creating-django-applications)
+  * [Database things](#Database-things)
 
 # Setup
 
